@@ -7,5 +7,8 @@
     <div>
       <NuxtLink to="/rendering">선언적 렌더링(ref, reactive)</NuxtLink>
     </div>
+    <div>
+      <NuxtLink to="/bind">속성 바인딩</NuxtLink>
+    </div>
   </div>
 </template>
