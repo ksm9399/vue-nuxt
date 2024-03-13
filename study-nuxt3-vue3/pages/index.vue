@@ -1,0 +1,11 @@
+<template>
+  <div>
+    <h3>Vue3 튜토리얼</h3>
+    <p>
+      사이트 : <a href="https://ko.vuejs.org/tutorial/#step-1" target="_blank" rel="noopener noreferrer">실습! Vue3 튜토리얼</a>
+    </p>
+    <div>
+      <NuxtLink to="/rendering">선언적 렌더링(ref, reactive)</NuxtLink>
+    </div>
+  </div>
+</template>
