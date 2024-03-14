@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>
-      <a href="https://ko.vuejs.org/tutorial/#step-4" target="_blank" rel="noopener noreferrer">
+      <a href="https://ko.vuejs.org/tutorial/#step-5" target="_blank" rel="noopener noreferrer">
         폼(form) 바인딩
       </a>
     </h3>
@@ -29,9 +29,6 @@
 import { ref } from 'vue'
 
 const text = ref('')
-function onInput(e) {
-  text.value = e.target.value
-}
 </script>
 
 <style>

@@ -16,5 +16,8 @@
     <div>
       <NuxtLink to="/bind/form">폼(form) 바인딩</NuxtLink>
     </div>
+    <div>
+      <NuxtLink to="/rendering/if-else">조건부 랜더링</NuxtLink>
+    </div>
   </div>
 </template>
