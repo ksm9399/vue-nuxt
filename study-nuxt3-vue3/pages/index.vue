@@ -10,5 +10,8 @@
     <div>
       <NuxtLink to="/bind">속성 바인딩</NuxtLink>
     </div>
+    <div>
+      <NuxtLink to="/listener">이벤트 리스너</NuxtLink>
+    </div>
   </div>
 </template>
