@@ -19,5 +19,8 @@
     <div>
       <NuxtLink to="/rendering/if-else">조건부 랜더링</NuxtLink>
     </div>
+    <div>
+      <NuxtLink to="/rendering/list">리스트 랜더링</NuxtLink>
+    </div>
   </div>
 </template>
