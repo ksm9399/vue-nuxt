@@ -22,5 +22,8 @@
     <div>
       <NuxtLink to="/rendering/list">리스트 랜더링</NuxtLink>
     </div>
+    <div>
+      <NuxtLink to="/rendering/computed">계산된 속성</NuxtLink>
+    </div>
   </div>
 </template>
