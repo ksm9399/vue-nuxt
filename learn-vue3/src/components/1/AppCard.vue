@@ -1,19 +1,14 @@
 <template>
   <div>
-    카드 컴포넌트1
+    카드 컴포넌트
+    <p>{{ props.title }}</p>
+    <p>{{ props.contents }}</p>
   </div>
-  <div>
-    카드 컴포넌트2
-  </div>
-  <div>
-    카드 컴포넌트3
-  </div>
-  <div>
-    카드 컴포넌트4
-  </div>
+  <hr />
 </template>
 
 <script setup>
+const props = defineProps(['title', 'contents'])
 
 </script>
 
