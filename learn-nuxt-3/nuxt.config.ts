@@ -3,6 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   typescript: {
     shim: false,
-    typeCheck: true // 빌드시 타입 체크
-  }
-})
+    typeCheck: true, // 빌드시 타입 체크
+  },
+});
