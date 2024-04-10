@@ -9,5 +9,6 @@
 </template>
 <script lang="ts">
 console.log('prefetching-2');
+export default {};
 </script>
 <script setup lang="ts"></script>
