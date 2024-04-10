@@ -73,9 +73,9 @@
             label="이전 강의"
             color="primary"
             unelevated
-            :to="prevCourse.path"
+            @click="prevCourse && movePage(prevCourse.path)"
           />
-
+          <!-- :to="prevCourse.path" -->
           <q-btn
             label="쿼리 추가"
             color="dark"
@@ -89,8 +89,9 @@
             label="다음 강의"
             color="primary"
             unelevated
-            :to="nextCourse.path"
+            @click="nextCourse && movePage(nextCourse.path)"
           />
+          <!-- :to="nextCourse.path" -->
         </ClientOnly>
       </template>
     </AppCard>
@@ -117,6 +118,11 @@ definePageMeta({
 
 const memo = ref('');
 const completed = ref(false);
+
+const movePage = async (path: string) => {
+  if (path) return false;
+  await navigateTo(path);
+};
 </script>
 
 <style scoped></style>
